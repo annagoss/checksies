@@ -1,0 +1,25 @@
+body { margin: 48px; max-width: 640px; font: 16px/1.5 georgia, serif; }
+@media (max-width: 768px) { body { margin: 24px; } }
+@media print { body { margin: 24px; max-width: none; font-size: 12px; } }
+
+h1, h2, h3 { font-family: helvetica, sans-serif; font-size: 1em; }
+
+h2 { display: inline-block; border-bottom: 2px solid black; }
+@media print { h2 { border-bottom-width: 1px; } }
+
+a { border-bottom: 1px dotted blue; text-decoration: none; color: blue; }
+@media print { a { border-bottom: none; color: inherit; } }
+
+hr { margin: 2em auto; border: 0; border-top: 1px solid #ccc; padding: 0; }
+
+hr + h2 { margin-top: 0; }
+
+h3 { font-weight: normal; }
+
+h3 strong { display: block; }
+
+pre, code { font: 12px/1.5 Menlo, monospace; }
+
+code.highlighter-rouge { padding: 3px; border-radius: 3px; background: rgba(0, 0, 0, 0.05); }
+
+pre.highlight { padding: 1em; border-radius: 3px; background: rgba(0, 0, 0, 0.05); overflow: auto; }
