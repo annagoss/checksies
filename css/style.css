@@ -25,3 +25,5 @@ code.highlighter-rouge { padding: 3px; border-radius: 3px; background: rgba(0, 0
 pre.highlight { padding: 1em; border-radius: 3px; background: rgba(0, 0, 0, 0.05); overflow: auto; }
 
 #mc_embed_signup { clear: left; }
+
+p.archives { font-weight:bold; }
