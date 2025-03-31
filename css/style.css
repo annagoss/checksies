@@ -25,3 +25,29 @@ code.highlighter-rouge { padding: 3px; border-radius: 3px; background: rgba(0, 0
 pre.highlight { padding: 1em; border-radius: 3px; background: rgba(0, 0, 0, 0.05); overflow: auto; }
 
 #mc_embed_signup { clear: left; }
+
+/* Product box styles */
+.product-box {
+  margin: 2em 0;
+  padding: 1em;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  background-color: rgba(0, 0, 0, 0.05);
+  max-width: 400px;
+}
+
+.product-link {
+  display: inline-block;
+  margin-top: 0.5em;
+  padding: 0.5em 1em;
+  background-color: blue;
+  color: white;
+  border-radius: 3px;
+  text-decoration: none;
+  border-bottom: none;
+  font-family: helvetica, sans-serif;
+}
+
+.product-link:hover {
+  background-color: darkblue;
+}
